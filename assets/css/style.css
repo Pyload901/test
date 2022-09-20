@@ -48,7 +48,7 @@ figure > img{
     box-sizing: border-box;
 }
 
-*, *::after, *::before{
+*, *::afteer, *::before{
     box-sizing: inherit;
     margin: 0;
     padding: 0;
