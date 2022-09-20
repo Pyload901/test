@@ -1,3 +1,12 @@
+:root{
+    box-sizing: border-box;
+}
+
+*, *::afteer, *::before{
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
 .container {
     width: 100%;
     height: auto;
@@ -45,4 +54,26 @@
 .box:hover {
     cursor: pointer;
     transform: scale(1.1);
+
+
+
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+footer > section {
+    padding: 0.5rem;
+}
+
+footer > section:nth-child(odd){
+    background-color: rgb(106, 61, 190);
+}
+footer > section:nth-child(even){
+    background-color: rgb(68, 26, 145);
+}
+
+footer section p{
+    color: aquamarine;
+    font-size: 0.8rem;
 }
